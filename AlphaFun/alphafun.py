@@ -18,7 +18,7 @@ quotes = {
     "Let them burn in your Light",
     "I abhor sitting here while others fight my battles. But I wouldn't have missed that match for anything.",
     "Your strategy is working, keep it up",
-    "I would tear out a Vex heart with my teeth, I would sear the Cabal with my burning light, challenge the Kells to personal combat and scatter them. I'd... I've been watching too many Crucible matches.",,
+    "I would tear out a Vex heart with my teeth, I would sear the Cabal with my burning light, challenge the Kells to personal combat and scatter them. I'd... I've been watching too many Crucible matches.",
     "Your spirit is unrivaled. Show me more!",
     "Enough! This battle was one-sided! You've obliterated them! Love it!",
     "Do you like it better when Lord Saladin oversees these matches? Do I look like I care? Get back in there!",
