@@ -33,7 +33,21 @@ quotes = {
     "I will tell you how I lost my horn, but it doesn't live up to slaying Oryx.",
     "Securing the Crest is vital. Good work.",
     "Heh. You're crushing them. Send them home crying.",
-    "I say take the Crest; you take all the Crests."
+    "I say take the Crest; you take all the Crests.",
+    "Are you up to the challenge?",
+    "Have you been tested?",
+    "The Iron Banner offers much suffering, but equal reward.",
+    "Odds are you are not ready for the Iron Banner.",
+    "Let the Iron Banner shape you.",
+    "Have you proved yourself... worthy?",
+    "Only the strongest need prove themselves to the Iron Banner",
+    "Your Light will be tested, Guardian... and you will be stronger for it.",
+    "Until we meet again, Guardian",
+    "The weak-willed need not apply.",
+    "You have never been tested like this.",
+    "No games. No sympathy. Just survival.",
+    "We recognize strength, Guardian.",
+    "Simply finishing isn't enough if you want to reap the best rewards, Guardian. Prove yourself."
 }
 
 class AlphaFun:
