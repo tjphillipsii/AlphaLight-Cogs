@@ -7,7 +7,7 @@ I am integrating with the [Red-DiscordBot](https://github.com/Cog-Creators/Red-D
 Currently the only working cog is the [alphafun](https://github.com/tjphillipsii/AlphaLight-Cogs/tree/master/alphafun) cog, which contains a couple of fun things the clan likes.
 
 ## Non-Working Cogs
-Any other cog you may find here is verymuch not working... they are works in progress
+Any other cog you may find here is very much not working... they are works in progress
 
 ### destiny Cog
 This cog will be tying into the [bungie.net api](https://github.com/Bungie-net/api)
