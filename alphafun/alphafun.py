@@ -18,7 +18,7 @@ class AlphaFun:
         """Return a random Shaxx quote"""
         await self.bot.say(randchoice(self.quotes))
 
-    @commands.command()
+    @commands.command(pass_context=True)
     async def kenny(self, ctx):
         """T I dougle Grrr POTATO!"""
         await self.bot.say('Ummm... POTATO')
