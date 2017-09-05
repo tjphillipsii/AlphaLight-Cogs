@@ -57,14 +57,14 @@ class AlphaFun:
     @commands.command()
     async def getsum(self):
         """Return a random Shaxx quote"""
-        await bot.say(choice(quotes))
+        await self.bot.say(choice(quotes))
 
 
     @commands.command()
-    async def kenny(self, ctx):
+    async def kenny(self):
         """T I dougle Grrr POTATO!"""
         await self.bot.say('Ummm... POTATO')
-        await self.bot.send_file(ctx.message.channel, 'data/alphafun/kennythetiger.jpg')
+        await self.bot.send_file(channel, 'data/alphafun/kennythetiger.jpg')
 
 def setup(bot):
     n = AlphaFun(bot)
