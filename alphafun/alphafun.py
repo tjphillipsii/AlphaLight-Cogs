@@ -61,10 +61,10 @@ class AlphaFun:
 
 
     @commands.command()
-    async def kenny(self):
+    async def kenny(self, ctx):
         """T I dougle Grrr POTATO!"""
         await self.bot.say('Ummm... POTATO')
-        await self.bot.send_file(ctx.message.channel, 'kennythetiger.jpg')
+        await self.bot.send_file(ctx.message.channel, 'data/alphafun/kennythetiger.jpg')
 
 def setup(bot):
     n = AlphaFun(bot)
