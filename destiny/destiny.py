@@ -6,10 +6,12 @@ from cogs.utils.dataIO import dataIO
 from datetime import datetime
 from collections import namedtuple, defaultdict, deque
 
-#uses the base economy cog for the bones, very much a work in progress
+# uses the base economy cog for the bones, very much a work in progress
+
 
 class NoAccount(VerificationError):
     pass
+
 
 class Verification():
 
@@ -60,12 +62,20 @@ class Destiny():
         Will use to tie PSN to Discord name."""
         pass
 
-    @commands.command(pass_context=True):
-    async def verify(self):
-        """Prompt user to change status to string
+    @commands.group(name=verify, pass_context=True):
+    async def _verify(self, ctx):
+        """Verification Operations"""
+        if ctx.invoked_subcommand is None:
+            await send_cmd_help(ctx)
 
-        Save information into the userinfo.json
-        If status string == saved"""
+    @_verify.command(pass_context=True no_pm=True):
+    async def register(self):
+        """Registers your bungie account with the Alpha Bot"""
+        settings = self.settings[ctx.message.server.id]
+        author = ctx.message.author
+        # Prompt user to change status to string
+        # Save information into the userinfo.json
+        # If status string == saved
 
 
 def check_folders():
