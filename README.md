@@ -12,7 +12,6 @@ Any other cog you may find here is very much not working... they are works in pr
 ### destiny Cog
 This cog will be tying into the [bungie.net api](https://github.com/Bungie-net/api)
 The plan if there is one, is to:
-
 	- Allow users to verify their bungie account with the server
 		- Pull their stats, from a pre-defined list
 		- Pull their milestone
