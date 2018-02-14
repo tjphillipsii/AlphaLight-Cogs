@@ -12,10 +12,10 @@ Any other cog you may find here is very much not working... they are works in pr
 ### destiny Cog
 This cog will be tying into the [bungie.net api](https://github.com/Bungie-net/api)
 The plan if there is one, is to:
-	- Allow users to verify their bungie account with the server
-		- Pull their stats, from a pre-defined list
-		- Pull their milestone
-	- Allow users to pull the Clan miles stones
-	- Get information on the current events/burns in D2
+* Allow users to verify their bungie account with the server
+  * Pull their stats, from a pre-defined list
+  * Pull their milestone
+* Allow users to pull the Clan miles stones
+* Get information on the current events/burns in D2
 
 I am still working out the details.
