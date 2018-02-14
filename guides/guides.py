@@ -18,7 +18,7 @@ class Guides:
     async def _guides(self, ctx):
         """You must enter a guide from the list"""
         if ctx.invoked_subcommand is None:
-            await self.bot.send_cmd_help(ctx)
+            await send_cmd_help(ctx)
 
     @_guides.command(pass_context=True, no_pm=True)
     async def calus(self, ctx):
