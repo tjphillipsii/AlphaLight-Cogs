@@ -29,14 +29,14 @@ class Guides:
 
     @_guides.command(pass_context=True, no_pm=True)
     async def gauntlet(self, ctx):
-        """Gauntlent Guide"""
+        """Gauntlet Guide"""
         await self.bot.say('Here is the guide for the Gauntlet:')
         await self.bot.say('https://youtu.be/T0DbeXjkKRs')
 
     @_guides.command(pass_context=True, no_pm=True)
     async def baths(self, ctx):
-        """Guide for the Baths and Enterance"""
-        await self.bot.say('Here is the guide for the Enterancee and Baths:')
+        """Guide for the Baths and Entrance"""
+        await self.bot.say('Here is the guide for the Entrance and Baths:')
         await self.bot.say('https://youtu.be/FVAvumqd2Yw')
 
     @_guides.command(pass_context=True, no_pm=True)
