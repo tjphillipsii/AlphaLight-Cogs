@@ -35,13 +35,13 @@ class Guides:
 
     @_guides.command(pass_context=True, no_pm=True)
     async def baths(self, ctx):
-        """Guide for the Baths and Entrance"""
+        """Baths and Entrance Guide"""
         await self.bot.say('Here is the guide for the Entrance and Baths:')
         await self.bot.say('https://youtu.be/FVAvumqd2Yw')
 
     @_guides.command(pass_context=True, no_pm=True)
     async def gardens(self, ctx):
-        """Guide for the Pleasure Gardens"""
+        """Pleasure Gardens Guide"""
         await self.bot.say('Here is the guide for the Pleasure Gardens:')
         await self.bot.say('https://youtu.be/pPg7rxKxf8o')
 
